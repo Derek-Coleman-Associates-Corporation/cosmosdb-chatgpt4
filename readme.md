@@ -31,6 +31,7 @@ The application summarizes the name of the chat session by asking ChatGPT to pro
 
 Please note this is a sample application. It is intended to demonstrate how to use Azure Cosmos DB and Azure OpenAI Service ChatGPT together. It demonstrates how system prompts are used to define behavior for generation completions in a Generative AI scenario. It also provides an example of how to model data for a chat-based application.
 
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FDerek-Coleman-Associates-Corporation%2Fcosmosdb-chatgpt4%2Fmain%2Fazuredeploy.json)
 ## Getting Started
 
 ### Prerequisites
