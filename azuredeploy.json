@@ -83,9 +83,9 @@
     "openAiSettings": {
       "name": "[format('{0}-openai', parameters('name'))]",
       "sku": "[parameters('openAiSku')]",
-      "maxConversationTokens": "2000",
+      "maxConversationTokens": "32000",
       "model": {
-        "name": "gpt-35-turbo",
+        "name": "gpt-4-32k",
         "version": "0301",
         "deployment": {
           "name": "chatmodel"
