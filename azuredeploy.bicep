@@ -48,9 +48,9 @@ param appGetRepositoryBranch string = 'main'
 var openAiSettings = {
   name: '${name}-openai'
   sku: openAiSku
-  maxConversationTokens: '2000'
+  maxConversationTokens: '32000'
   model: {
-    name: 'gpt-35-turbo'
+    name: 'gpt-4-32k'
     version: '0301'
     deployment: {
       name: 'chatmodel'
